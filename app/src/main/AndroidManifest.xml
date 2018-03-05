@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ilham.qnowpets">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PilihanPetActivity"
+            android:label="Pets" />
+        <activity
+            android:name=".PetshopActivity"
+            android:label="Petshop" />
+        <activity android:name="._Kelinci.KelinciActivity"/>
+        <activity android:name="._Kelinci.ApaKelinciActivity" />
+        <activity android:name="._Kelinci.JenisKelinciActivity"
+            android:label="Jenis Kelinci"/>
+        <activity android:name="._Kelinci.JenisKelinciActivity2"
+            android:label="Jenis Kelinci"/>
+        <activity android:name="._Kelinci.JenisKelinciActivity3"
+            android:label="Jenis Kelinci"/>
+        <activity android:name="._Kelinci.JenisKelinciActivity4"
+            android:label="Jenis Kelinci"/>
+        <activity android:name="._Kelinci.JenisKelinciActivity5"
+            android:label="Jenis Kelinci"/>
+        <activity android:name="._Kucing.ApaKucingActivity" />
+        <activity android:name="._Kucing.JenisKucingActivity"
+            android:label="Jenis Kucing"/>
+        <activity android:name="._Kucing.JenisKucingActivity2"
+            android:label="Jenis Kucing"/>
+        <activity android:name="._Kucing.JenisKucingActivity3"
+            android:label="Jenis Kucing"/>
+        <activity android:name="._Kucing.JenisKucingActivity4"
+            android:label="Jenis Kucing"/>
+        <activity android:name="._Kelinci.MakananKelinciActivity"
+            android:label="Makanan Kelinci"/>
+        <activity android:name="._Kelinci.MakananKelinciActivity2"
+            android:label="Makanan Kelinci"/>
+        <activity android:name="._Kelinci.MakananKelinciActivity3"
+            android:label="Makanan Kelinci"/>
+        <activity android:name="._Kelinci.MakananKelinciActivity4"
+            android:label="Makanan Kelinci"/>
+        <activity android:name="._Musang.ApaMusangActivity" />
+        <activity android:name="._Musang.MusangActivity" />
+        <activity android:name="._Musang.JenisMusangActivity"
+            android:label="Jenis Musang"/>
+        <activity android:name="._Musang.JenisMusangActivity2"
+            android:label="Jenis Musang"/>
+        <activity android:name="._Lanmin.ApaLanminActivity" />
+        <activity android:name="._Lanmin.LanminActivity" />
+        <activity android:name="._Lanmin.JenisLanminActivity"
+            android:label="Jenis Landak Mini"/>
+        <activity android:name="._Lanmin.JenisLanminActivity2"
+            android:label="Jenis Landak Mini"/>
+        <activity android:name="._Lanmin.JenisLanminActivity3"
+            android:label="Jenis Landak Mini"/>
+        <activity android:name="._Lanmin.JenisLanminActivity4"
+            android:label="Jenis Landak Mini"/>
+        <activity android:name="._Anjing.AnjingActivity" />
+        <activity android:name="._Anjing.ApaAnjingActivity" />
+        <activity android:name="._Anjing.JenisAnjingActivity"
+            android:label="Jenis Anjing"/>
+        <activity android:name="._Anjing.JenisAnjingActivity2"
+            android:label="Jenis Anjing"/>
+        <activity android:name="._Anjing.JenisAnjingActivity3"
+            android:label="Jenis Anjing"/>
+        <activity android:name="._Anjing.JenisAnjingActivity4"
+            android:label="Jenis Anjing"/>
+        <activity android:name="._Kucing.KucingActivity" />
+        <activity android:name="._Marmut.MarmutActivity" />
+        <activity android:name="._Marmut.ApaMarmutActivity" />
+        <activity android:name="._Marmut.JenisMarmutActivity"
+            android:label="Jenis Marmut"/>
+        <activity android:name="._Marmut.JenisMarmutActivity2"
+            android:label="Jenis Marmut"/>
+        <activity android:name="._Marmut.JenisMarmutActivity3"
+            android:label="Jenis Marmut"/>
+        <activity android:name="._Sugarglider.SugargliderActivity" />
+        <activity android:name="._Sugarglider.ApaSugargliderActivity" />
+        <activity android:name="._Sugarglider.JenisSugargliderActivity"
+            android:label="Jenis Sugar Glider"/>
+        <activity android:name="._Sugarglider.JenisSugargliderActivity2"
+            android:label="Jenis Sugar Glider"/>
+        <activity android:name="._Sugarglider.JenisSugargliderActivity3"
+            android:label="Jenis Sugar Glider"/>
+        <activity android:name="._Sugarglider.JenisSugargliderActivity4"
+            android:label="Jenis Sugar Glider"/>
+        <activity android:name=".TipsActivity" />
+        <activity android:name=".QnowActivity"
+            android:label="Tentang QNOW Pets"/>
+    </application>
+
+</manifest>

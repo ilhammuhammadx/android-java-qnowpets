@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_headerapakelinci"
+            android:src="@mipmap/marmut"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:textAlignment="textEnd"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_headerapakelinci"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:background="#85000000"
+            android:paddingRight="10dp"
+            android:text="Apa Itu Marmut ?"/>
+
+
+        <TextView
+            android:layout_below="@id/iv_headerapakelinci"
+            android:id="@+id/par1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Guinea Pig (marmut) adalah binatang cerdas dan pendiam. Sebagai hewan soliter, jika kamu sudah mempunyai ikatan yang kuat , mereka dapat melompat di sekitar Anda, menyambut Anda dengan berbagai suaranya."/>
+
+        <TextView
+            android:id="@+id/par2"
+            android:layout_below="@id/par1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Guinea pig tidak memerlukan banyak waktu Anda seperti hewan peliharaan lainnya, tetapi jika anda meluangkan lebih banyak waktu dengannya , mereka akan lebih interaktif. Mereka adalah makhluk yang sangat aktif dan menikmati labirin dan berjalan melalui terowongan."/>
+
+        <TextView
+            android:id="@+id/par3"
+            android:layout_below="@id/par2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Marmut yang biasanya masyarakat Indonesia kenal sebagai Tikus Belanda atau dalam bahasa Inggrisnya disebut Guinea Pig, adalah spesies hewan pengerat yang masuk ke dalam famili Caviidae dan genus Cavia."/>
+
+        <TextView
+            android:id="@+id/par4"
+            android:layout_below="@id/par3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:text="Tikus belanda tidak berasal dari Belanda tetapi berasal dari wilayah Andes. Hewan ini banyak dijadikan hewan peliharaan oleh manusia. Tikus belanda sering kali salah disebut sebagai marmut / marmot, hewan lain yang mirip tetapi berukuran lebih besar."/>
+
+    </RelativeLayout>
+</ScrollView>

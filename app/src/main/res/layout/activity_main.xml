@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/layout_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/backgroundColor">
+
+        <RelativeLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:id="@+id/SliderDots"
+                android:layout_below="@+id/viewPager"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+               <FrameLayout
+                   android:id="@+id/pets"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="#5F9EA0"
+                   android:clickable="true"
+                   android:layout_margin="10dp">
+
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent">
+
+                       <ImageView
+                           android:layout_width="64dp"
+                           android:layout_height="64dp"
+                           android:layout_centerInParent="true"
+                           android:id="@+id/user"
+                           android:scaleType="fitXY"
+                           android:src="@mipmap/outlinepets"/>
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_marginTop="10dp"
+                           android:textSize="15sp"
+                           android:layout_marginBottom="10dp"
+                           android:textColor="#000000"
+                           android:textAlignment="center"
+                           android:layout_height="match_parent"
+                           android:layout_below="@+id/user"
+                           android:textStyle="bold"
+                           android:layout_centerHorizontal="true"
+                           android:text="Pets"/>
+                   </RelativeLayout>
+
+               </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:id="@+id/petshop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D2691E"
+                    android:clickable="true"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/user"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/outlinepetshop"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#000000"
+                            android:textAlignment="center"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/user"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="Petshop"/>
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/tipsku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#CD5C5C"
+                    android:clickable="true"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/user"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/outlinetips"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/user"
+                            android:layout_centerHorizontal="true"
+                            android:text="Tips dan Trik"/>
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/tentangQnow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#B8860B"
+                    android:clickable="true"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/user"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/outlineabout"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:textSize="12sp"
+                            android:paddingBottom="10dp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/user"
+                            android:layout_centerHorizontal="true"
+                            android:text="Tentang QNOW Pets"/>
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/keluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#5ccd64"
+                    android:clickable="true"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentTop="true"
+                            android:id="@+id/user"
+                            android:paddingTop="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/exitoutline"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/user"
+                            android:layout_centerHorizontal="true"
+                            android:text="Keluar"/>
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

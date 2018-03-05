@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/petsmenu"
+        android:title="Pets"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/petshopmenu"
+        android:title="petshop"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/tipsmenu"
+        android:title="Tips n Trik"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/tentangmenu"
+        android:title="Tentang QNOW Pets"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/keluarmenu"
+        android:title="Keluar"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

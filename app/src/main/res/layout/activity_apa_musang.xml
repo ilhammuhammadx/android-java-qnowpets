@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_headerapakelinci"
+            android:src="@mipmap/musang"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:textAlignment="textEnd"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_headerapakelinci"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:background="#85000000"
+            android:paddingRight="10dp"
+            android:text="Apa Itu Musang ?"/>
+
+
+        <TextView
+            android:layout_below="@id/iv_headerapakelinci"
+            android:id="@+id/par1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Musang adalah nama umum bagi sekelompok mamalia pemangsa (bangsa karnivora) dari suku Viverridae. Hewan ini kebanyakan merupakan hewan malam (nokturnal) dan pemanjat yang baik."/>
+
+        <TextView
+            android:id="@+id/par2"
+            android:layout_below="@id/par1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Yang paling dikenal dari berbagai jenisnya adalah musang luwak (Paradoxurus hermaphroditus). Musang ini biasa hidup di dekat pemukiman, termasuk perkotaan, dan sering pula didapati memangsa ayam peliharaan di malam hari."/>
+
+        <TextView
+            android:id="@+id/par3"
+            android:layout_below="@id/par2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:text="Pada umumnya, musang melindungi diri dari musuhnya dengan cara berpura-pura mati agar bisa mengelabui musuhnya. jika musuhnya sudah pergi, musang akan pergi ke tempat lain."/>
+    </RelativeLayout>
+</ScrollView>

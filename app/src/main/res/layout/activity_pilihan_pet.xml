@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/layout_down"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.ilham.panduanshalatku.MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/kelinci"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_kelinci"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/kelinci"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/iv_hitam"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:text="Kelinci"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff"
+                            android:id="@+id/textView" />
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/kucingku"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_kucing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/kucing"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:text="kucing"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/sugarglider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_kucing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/sugarglider"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:text="Sugar Glider"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/anjing"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_kucing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/anjing"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:text="Anjing"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/marmut"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_lanmin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/marmut"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:textAlignment="center"
+                            android:text="Marmut"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff" />
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/landakmini"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_lanmin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/landak"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:textAlignment="center"
+                            android:text="Landak Mini"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/musang"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_musang"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/musang"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="#57000000"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView"
+                            android:layout_marginTop="10dp"
+                            android:text="Read More"
+                            android:textSize="11sp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:text="Musang"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
